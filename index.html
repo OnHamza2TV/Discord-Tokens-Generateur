@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>NitroGen</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="● Discord Token Generator unchecked by On Hamza">
+    <meta name="theme-color" content="#2f3136">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/747818500600496129/755137757512466462/discord-minimalism-render-hd-wallpaper-preview.jpg">
+    <meta charset="utf-8">
+
+
+    <style>
+        @media (max-width: 500px) {
+            textarea {
+                height: 100px;
+                line-height: 1.25;
+            }
+            button {
+                background-color: #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:50px;
+	padding:50px 60px;
+	text-decoration:none;
+            }
+        }
+
+        .button0 {
+            font-size: 20px;
+            padding: 50px 60px;
+        }
+    </style>
+</head>
+
+<body>
+    </style>
+    <style>
+        textarea {
+            background-color: #000;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+ 
+ 
+            padding: 8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif new;
+        }
+
+        body {
+            background: url("https://w.wallhaven.cc/full/6q/wallhaven-6qx916.png");
+        }
+
+        input {
+            background-color: #000;
+            color: #ffffff;
+        }
+
+        button {
+            background-color: #000000;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 17px;
+            padding: 7px 8px;
+            text-decoration: none;
+        }
+
+        button:active {
+            position: relative;
+            top: 1px;
+        }
+    </style>
+    <div>
+<h1 style="font-family: Arial, Helvetica, sans-serif; color: #ffffff">Discord Token Generateur by On Hamza</h1>
+<textarea id="a" rows="25" cols="100" readonly="" style="resize: none;">
+ 
+    ―――――――――――――――――――――――――――――――――――――――
+        ・ Discord Tokens Generateur
+        ・ Les Tokens Discord seront ici
+    ―――――――――――――――――――――――――――――――――――――――
+
+</textarea>
+        <p></p>
+        <p style="font-family: Arial; color: #ffffff">Combien de tokens veux tu générer par seconde ? (max : 50)</p>
+        <input type="text" id="speed" value="10">
+        <p></p>
+        <button id='generate' class="button">
+        Générer
+</button>
+        <p></p>
+        <button id='stop' class="button">
+  Stoper
+</button>
+        <p></p>
+        <button id='save' onclick="var rows = document.getElementById('b').value.split('\n').length -  0; download(rows + ' tokens uncheck.txt', 'Poser moi des question sur mon discord : On Hamza#9999\n\n' + document.getElementById('b').value + '\n On Hamza Copyrights ©️')"
+            class="button">En fichier txt</button>
+        <p></p>
+        <button onclick="stop(); document.getElementById('a').value = '―――――――――――――――――――――――――――――――――――――――\n        ・ Discord Tokens Generateur\n        ・ Les Tokens Discord seront ici\n    ―――――――――――――――――――――――――――――――――――――――'; document.getElementById('b').value = '';"
+            class="button" id="clear">Suprimée tout</button>
+        <textarea style="display: none;" id="b" rows="11" cols="100" readonly>
+</textarea>
+        <script src="main.js"></script>
+    </div>
+    <p></p>
+</body>
+
+</html>
+
+
